@@ -1,1 +1,1 @@
-﻿
+﻿Console.Write(2 + 3);
