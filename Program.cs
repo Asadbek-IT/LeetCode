@@ -1,1 +1,15 @@
-﻿Console.Write(2 + 3);
+﻿public class Solution {
+    public bool IsPalindrome(int x) {
+        string num = x.ToString();
+
+        for(int i = 0; i < num.Length; i++)
+        {
+            if(num[i] != num[num.Length - 1 - i])
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
